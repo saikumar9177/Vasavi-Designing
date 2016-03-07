@@ -1,0 +1,328 @@
+body
+{
+	margin:0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+/*Font Sizes Starts*/
+.vasavi_f50{font-size: 50px;}
+.vasavi_f36{font-size: 36px;}
+.vasavi_f30{font-size: 30px;}
+.vasavi_f24{font-size: 24px;}
+.vasavi_f18{font-size: 18px;}
+/*Font sizes Ends*/
+
+/*Font Colors Starts*/
+.vf_green{color: #39cd12;}
+.vf_black{color: #000000;}
+/*Font Color Ends*/
+
+/*Text Transforms Starts*/
+.vf_uppercase{text-transform: uppercase;}
+.vf_capitalize{text-transform: capitalize;}
+/*Text Transforms Ends*/ 
+/*Buttons Starts*/
+.vasavi-btn{color: #FFFFFF;background-color: transparent;border-color: #ccc;padding: 8px 18px;letter-spacing: 0;margin: 0 15px;border-radius: 0;font-size: 12px;}
+.vasavi-btn:hover{color: #ffffff;background: #067e14;}
+.btn-green{color: #067e14;background: #ffffff;border-color: #067e14;padding: 8px 18px;letter-spacing: 0;margin: 0 15px;border-radius: 0;font-size: 12px;}
+.btn-green:hover{color:#ffffff ;background: #067e14;}
+.btn-green1{border-radius:4px;color: #ffffff;background: #067e14;border-color: #067e14;padding: 8px 18px;letter-spacing: 0;margin: 0 15px;font-size: 18px;}
+.btn-green1:hover{color:#067e14 ;background: #ffffff;}
+.vasavi_social_btn{color: #FFFFFF;background-color: transparent;border-color: #ccc;padding: 8px 18px;letter-spacing: 0;margin: 0 3px;border-radius: 0;font-size: 12px;}
+/*Buttons Ends*/
+#navbar1
+{
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+/*Topbar Starts*/
+.topbar{position: absolute;top: 0;width: 100%;z-index: 1;}
+.top_fixed{position: fixed;width:100%;}
+/*Logo Starts*/
+.logo{}
+.logo h4{text-transform: uppercase;font-size: 24px;}
+.logo h4 .name{color: #ffffff;text-decoration: none;}
+.logo h4 .name:hover{color:#000000;}
+.logo h4 .menu_icon{color:#ffffff;}
+.logo h4 a .menu_icon:hover{color: #000000;}
+/*Logo Ends*/
+/*Social Icon Starts*/
+.social{list-style: none;margin-top: 16px;margin-bottom: 16px;text-align: right;padding-left: 0;}
+.social li{display: inline-block;}
+.social li a{font-size: 14px;}
+.social li a:hover{text-decoration: none;color: #fff;}
+.facebook{background: #3b5998;}
+.twitter{background: #00aced;}
+.google{background: #d14836;}
+/*Social Icon Ends*/
+/*Topbar Ends*/
+
+/*Vasavi Section1 Starts*/
+    .vasavisection1{background: url('img/banner.jpg');height: 643px;position: relative;}
+    /*.vasavisection1 .overlay{background: #000;width: 100%;height: 100%;}*/
+    .vasavisection1 h1{color: #ffffff;padding: 128px 40px 10px;font-weight: bold;}
+    .vasavisection1 .nav{padding-left: 35px;}
+    .nav-pills>li>a{font-size: 18px;}
+    .nav-pills>li>a:hover{color:#067e14; }
+    .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+    {
+        background: #067e14;
+        color: #ffffff;
+    }
+    .searchform{padding:15px 0 15px 48px;}
+    .searchform .form-group{padding: 0 25px 0 0;}
+    .searchform .form-control{height:47px;}
+    #residential .btn-green1{float: right;margin-right: 106px;}
+    #commercial .btn-green1{float: right;margin-right: 78px;}
+/*Vasavi Section1 Ends*/
+
+
+/*Vasavi Section2 Starts*/
+    .vasavisection2{background: #fff;margin-top: 12px;margin-bottom: 20px;}
+	.vasavisection2 h3{font-weight: bold;margin: 10px auto;}
+    .vasaviclients{list-style: none;width:85%;margin:80px auto 40px;padding-left: 0;}
+    .vasaviclients li{display: inline-block;padding: 10px 10px;}
+    .vasaviclients li a{}
+    .vasaviclients li a img{}
+    .vasaviclients p{text-align: right;padding-top:15px;}
+/*Vasavi Section2 Ends*/
+
+/*Vasavi Section3 Starts*/
+.vasavisection3{background: #f0f0f0;}
+.vasavisection3 img{margin: 140px auto 120px;}
+.vasavisection3 .section3_content{margin: 140px auto 120px;padding: 0 65px;}
+.vasavisection3 .section3_content h2{margin-bottom: 45px;line-height: 40px;font-weight: 600;}
+/*Vasavi Section3 Ends*/
+
+/*Vasavi Section4 Starts*/
+.vasavisection4{background: #fff;}
+.vasavisection4 h3{font-weight: bold;margin: 60px auto;}
+.section4block{margin-bottom: 46px;}
+.section4block img{padding: 0 35px;}
+.section4block .section4_content{padding: 0 35px;}
+.section4block .section4_content h4{font-weight: 600;margin-bottom: 24px;}
+.section4block .section4_content p{margin-bottom: 36px;}
+/*Vasavi Section4 Ends*/
+
+/*Footer Starts*/
+
+.vasavi_footer{background: #067e14;}
+
+.vasavi_footer_sub{width: 96%;margin: 40px auto 15px;font-weight: 300;}
+
+.vasavi_footer_sub .font-icons li{padding:4px 1px;}
+
+.info h3,.newsletter h3,.address h3{font-size: 18px;color: #ffffff;font-weight: 400;text-transform: uppercase;margin-bottom: 30px;}
+
+.newsletter{color: #ffffff;font-weight: 300;text-align: center;}
+
+.newsletter h6{text-align: center;font-size: 14px;font-weight: 300;}
+
+.newsletter p{font-size: 14px;text-align: left;}
+
+.newsletter .form-group{text-align: center;}
+
+.newsletter .vasavi-btn{margin: 10px 15px;}
+
+.newsletter .form-control{background: rgba(0, 0, 0, 0.25);color: #ffffff;border-radius: 0;}
+
+
+.info .footer_menu{list-style: none;font-size: 14px;padding:0;}
+
+.info .footer_menu li a{color: #ffffff;}
+
+.address {color: #ffffff;text-align: center;}
+
+.address p{font-size: 14px;text-align: left;padding: 0 30px 0 88px;}
+
+.location{margin-top: 30px;}
+.copyrights{color: #000;}
+.copyrights .rights{font-size: 12px;text-align:left;font-weight: 500;padding: 5px 12px;}
+.copyrights .terms{font-size: 12px;text-align:right;font-weight: 500;padding: 5px 12px;}
+
+/*Footer Ends*/
+
+
+
+
+
+/*==========  MEDIA QUERIES STARTS  ==========*/
+    @media only screen and (max-width : 1281px) {
+        .searchform .form-group{padding: 0 16px 0 0;}
+        #residential .btn-green1{float: right;margin-right: 50px;}
+        #commercial .btn-green1{float: right;margin-right: 21px;}
+        /*Vasivi section2 Starts*/
+        .vasaviclients{width:75%;}
+        /*Vasivi section2 Ends*/
+        /*Footer Starts*/
+        .address p{padding: 0 30px 0 74px;}
+        /*Footer Ends*/
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+        .vasavi_f50{font-size: 40px;}
+        .vasavi_f36{font-size: 30px;}
+        .vasavi_f18{font-size: 16px;}
+        /*Vasavi Section1 Starts*/
+            .vasavisection1 .nav{padding-left:30px;}
+            .searchform .form-group{padding: 5px 45px 0 0;}
+            .searchform .form-control{width: 200px;}
+            #residential .btn-green1{float: none;margin-left: 48px;}
+            #commercial .btn-green1{float: none;margin-left: 48px;}
+        /*Vasavi Section1 Ends*/
+
+        /*Vasivi section2 Starts*/
+        .vasaviclients{width:90%;}
+        /*Vasivi section2 Ends*/
+
+    	/*Vasavi Section3 Starts*/
+    	
+    	.vasavisection3 img{margin: 100px auto 70px;}
+		.vasavisection3 .section3_content{margin: 100px auto 70px;padding: 0 10px;}
+		.vasavisection3 .section3_content h2{margin-bottom: 35px;}
+		/*Vasavi Section3 Ends*/
+        /*Vasavi Section4 Starts*/
+            .vasavisection4 h3{margin:30px auto;}
+            .section4block .section4_content,.section4block img{padding: 10px;}
+            .section4block .section4_content h4{margin-bottom: 14px;}
+            .section4block .section4_content p{margin-bottom: 16px;}
+        /*Vasvai Section4 Ends*/
+        /*Footer Starts*/
+        .address p{padding: 0 30px 0 35px;}
+        /*Footer Ends*/
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        .vasavi_f50{font-size: 36px;}
+        /*Topbar Starts*/
+        .logo h4{font-size: 20px;}
+        .social{margin-top: 10px;}
+        .social li a{font-size: 8px;}
+        .vasavi_social_btn{margin: 0;}
+        /*Topbar Ends*/
+        /*Vasavi Section1 Starts*/
+            .vasavisection1 .nav{padding-left: 28px;}
+            .searchform{padding:15px 0 15px 41px;}
+            .searchform .form-group{padding: 5px 12px 0 0;}
+            .searchform .form-control{width: 200px;}
+            #residential .btn-green1{float: none;margin-left: 41px;}
+            #commercial .btn-green1{float: none;margin-left: 41px;}
+        /*Vasavi Section1 Ends*/
+    	/*Vasavi Section3 Starts*/
+    	.vasavisection3 img{margin: 20px auto 10px;}
+		.vasavisection3 .section3_content{margin: 20px auto 10px;padding: 0 0px;}
+		.vasavisection3 .section3_content h2{margin-bottom: 25px;}
+		/*Vasavi Section3 Ends*/
+        /*Footer Starts*/
+        .location{margin: 10px;}
+        .copyrights .rights{text-align:center;padding: 5px;}
+        .copyrights .terms{text-align:center;padding: 5px;}
+        /*Footer Ends*/
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .vasavi_f50{font-size: 26px;}
+        .vasavi_f30{font-size: 24px;}
+        /*topbar Starts*/
+        .logo{text-align: center;}
+        .logo h4{font-size: 24px;}
+        /*Topbar Ends*/
+        /*Vasavi Section1 Starts*/
+            .searchform .form-group{padding: 5px 12px 0 0;display: inline-block;}
+         /*Vasavi Section1 Ends*/
+         /*Vasavi Section2 Starts*/
+            .vasaviclients{margin: 30px auto 40px}
+            .vasaviclients li{display: block;}
+            .vasaviclients li a img{width: 200px;margin:0px auto;}
+    	/*Vasavi Section3 Starts*/
+    	.vasavisection3 img{margin: 20px auto 10px;}
+		.vasavisection3 .section3_content{margin: 20px auto 10px;padding: 0 0px;}
+		.vasavisection3 .section3_content h2{margin-bottom: 20px;line-height: 27px;}
+		/*Vasavi Section3 Ends*/
+        /*Vasavi Section4 Starts*/
+            .vasavisection4 h3{margin:20px auto 10px;}
+            .section4block .section4_content,.section4block img{padding: 10px;}
+            .section4block .section4_content h4{margin-bottom: 14px;}
+            .section4block .section4_content p{margin-bottom: 16px;}
+        /*Vasvai Section4 Ends*/
+        /*Footer Starts*/
+        .info h3, .newsletter h3, .address h3{text-align: center;}
+        .info .footer_menu{text-align: center;font-size: 16px;}
+        .newsletter p{text-align: center;}
+        .address p{text-align: center;padding: 0;}
+        .location{margin-top: 10px;}
+        /*Footer Ends*/
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+            .vasavi_f50{font-size: 18px;}
+    		.vasavi_f36,.vasavi_f30{font-size: 24px;}
+    		.vasavi_f18{font-size: 16px;}
+            .btn-green1{font-size: 14px;}
+            /*topbar Starts*/
+                .logo{text-align: center;}
+                .logo h4{font-size: 20px;}
+            /*Topbar Ends*/
+             /*Vasavi Section1 Starts*/
+             .vasavisection1 .nav{padding-left: 0}
+             .nav-pills>li>a{font-size: 16px;}
+             .vasavisection1 h1{padding:50px 0 10px;text-align: center;}
+             .searchform{padding:15px 10px 15px 15px;}
+             .searchform .form-group{display: block;padding:0px 12px 0 0;width: 100%;}
+             .searchform .form-control{width:100%;margin: 0px auto;}
+             #residential .btn-green1{float: none;margin-left: 0;}
+            #commercial .btn-green1{float: none;margin-left: 0;}
+            .letsgo{text-align: center;}
+            
+        }
+
+         @media only screen and (max-width : 430px) {
+            .vasavi_f50{font-size: 16px;}
+            .vasavi_f36,.vasavi_f30{font-size: 24px;}
+            .vasavi_f18{font-size: 16px;}
+            .btn-green1{font-size: 14px;}
+            /*topbar Starts*/
+                .logo{text-align: center;}
+                .logo h4{font-size: 20px;}
+            /*Topbar Ends*/
+             /*Vasavi Section1 Starts*/
+             .vasavisection1 .nav{padding-left: 0}
+             .nav-pills>li>a{font-size: 14px;}
+             .vasavisection1 h1{padding:50px 0 10px;}
+             .searchform{padding:15px 20px 15px 15px;}
+             .searchform .form-group{display: block;padding:0px 12px 0 0;width: 100%;}
+             .searchform .form-control{width:100%;margin: 0px auto;}
+             #residential .btn-green1{float: none;margin-left: 0;}
+            #commercial .btn-green1{float: none;margin-left: 0;}
+            .letsgo{text-align: center;}
+            
+        }
+    
+ 
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        .vasavi_f50{font-size: 15px;}
+    	.vasavi_f36{font-size: 18px;}
+    	.vasavi_f18{font-size: 16px;}
+        /*Vasavi Section1 Starts*/
+        .vasavisection1 .nav{padding-left: 0}
+        .nav-pills>li>a{font-size: 10px;}
+        .vasavisection1 h1{padding:50px 0 10px;}
+        .searchform{padding:15px 20px 15px 15px;}
+        .searchform .form-group{display: block;padding:0px 12px 0 0;width: 100%;}
+        .searchform .form-control{width:100%;margin: 0px auto;}
+        #residential .btn-green1{float: none;margin-left: 0;}
+        #commercial .btn-green1{float: none;margin-left: 0;}
+        .letsgo{text-align: center;}
+        
+    }
+
+/*==========  MEDIA QUERIES ENDS  ==========*/
